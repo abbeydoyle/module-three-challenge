@@ -37,6 +37,8 @@ var lowcaseInput;
 var spcharInput;
 var numbInput;
 var userInput;
+var password;
+// var passwordString;
 
 // user input on password length
     length = Number(prompt("Choose a password length, 8 - 128 characters"));
@@ -127,15 +129,22 @@ var userInput;
       userInput = numb;
     }
 
-    for (var i = 0; i < length; i++) {
+    /* for (var i = 0; i < length; i++) {
       var joinInput = userInput[Math.floor(Math.random() * userInput.length)];
       password.push(joinInput);
     }
     
-    var stringPassword = password.join("");
-    genPass(stringPassword);
-    return stringPassword;
+    let passwordString = joinInput.toString();
 
+    var passwordString = password.join("");
+
+    */
+
+    for (var i=0; i < length; i++) {
+      password = userInput[Math.floor(Math.random() * userInput.length)];
+    }
+
+    return password;
 
 
 }
