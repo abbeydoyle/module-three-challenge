@@ -35,24 +35,17 @@ There is no installation required for this ramdomized Password Generator. Simply
 
 ## Usage
 
-There are 6 main sections of this repository:
+There are 4 main sections of this repository:
 
-- [Develop Folder](https://github.com/abbeydoyle/module-two-challenge/tree/main/assets) - Contains all [webpage images](https://github.com/abbeydoyle/module-two-challenge/tree/main/assets/images) and the CSS Folder
+- [Develop Folder](https://github.com/abbeydoyle/module-three-challenge/tree/main/Develop) - Contains the [CSS Styling Sheet](https://github.com/abbeydoyle/module-three-challenge/blob/main/Develop/style.css), the [JS file](https://github.com/abbeydoyle/module-three-challenge/blob/main/Develop/script.js), a [JS graveyard file](https://github.com/abbeydoyle/module-three-challenge/blob/main/Develop/graveyard.js), where outdated JS is stored for future reference, and an [images folder](https://github.com/abbeydoyle/module-three-challenge/blob/main/Develop/images)
 
-- [CSS Folder](https://github.com/abbeydoyle/module-two-challenge/tree/main/assets/css) - Contains all CSS Styling for the entire webpage along with a CSS graveyard file, where outdated CSS is stored for future reference
+- [HTML](https://github.com/abbeydoyle/module-three-challenge/blob/main/index.html) - Contains the HTML encoding the Password Generator
 
-- [HTML](https://github.com/abbeydoyle/module-two-challenge/blob/main/index.html) - Contains the HTML encoding the Portfolio Homepage
+- [License](https://github.com/abbeydoyle/module-three-challenge/blob/main/LICENSE) - Contains the webpage license
 
-- [Subpages Folder](https://github.com/abbeydoyle/module-two-challenge/tree/main/subpages) - Contains all child html pages for the html Portfolio home parent page along with an HTML graveyard file, used for unused code for future reference
+- [ReadMe](https://github.com/abbeydoyle/module-three-challenge/blob/main/README.md) - This file containing an executive overview of the project
 
-- [License](https://github.com/abbeydoyle/module-two-challenge/blob/main/LICENSE) - Contains the webpage license
-
-- [ReadMe](https://github.com/abbeydoyle/module-two-challenge/blob/main/README.md) - This file containing an executive overview of the project
-
-
- ![Porfolio Homepage](./assets/images/module-two-challenge-homepage.png)
-
- Screenshots of all subpages can be found in the [images](https://github.com/abbeydoyle/module-two-challenge/tree/main/assets/images) folder.
+ ![Password Generator webpage screenshot](./Develop/images/module-three-challenge.gif)
 
 
 
@@ -90,17 +83,17 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Badges
 
-![badmath](https://img.shields.io/github/repo-size/abbeydoyle/module-two-challenge?color=pink&style=plastic)
+![badmath](https://img.shields.io/github/repo-size/abbeydoyle/module-three-challenge?color=pink&style=plastic)
 
-![badmath](https://img.shields.io/github/issues-closed-raw/abbeydoyle/module-two-challenge?color=pink&style=plastic)
+![badmath](https://img.shields.io/github/issues-closed-raw/abbeydoyle/module-three-challenge?color=pink&style=plastic)
 
-![badmath](https://img.shields.io/github/issues-raw/abbeydoyle/module-two-challenge?color=pink&style=plastic)
+![badmath](https://img.shields.io/github/issues-raw/abbeydoyle/module-three-challenge?color=pink&style=plastic)
 
-![badmath](https://img.shields.io/github/license/abbeydoyle/module-two-challenge?color=pink&style=plastic)
+![badmath](https://img.shields.io/github/license/abbeydoyle/module-three-challenge?color=pink&style=plastic)
 
-![badmath](https://img.shields.io/github/commits-since/abbeydoyle/module-two-challenge/8215fd4/main?color=pink&style=plastic)
+![badmath](https://img.shields.io/github/commits-since/abbeydoyle/module-three-challenge/8d2b2c0/main?color=pink&style=plastic)
 
-![badmath](https://img.shields.io/github/last-commit/abbeydoyle/module-two-challenge?color=pink&style=plastic)
+![badmath](https://img.shields.io/github/last-commit/abbeydoyle/module-three-challenge?color=pink&style=plastic)
 
 ![badmath](https://img.shields.io/maintenance/yes/2022?color=pink&style=plastic)
 
@@ -111,16 +104,11 @@ Badges aren't necessary, per se, but they demonstrate street cred. Badges let ot
 
 ## Features
 
-This page features:
+This page features user input for:
 
-- Fixed social media bar
-- Contact links
-- Media screen compatibility
-- Nav bar with linked sections
-- Glowing sections
-- Basis for a feedback form
-- Self-designed Favicon image
-
+- alert messages
+- password length
+- character types including: upper and lower case letters, special characters, and numbers
 
 
 <!-- If your project has a lot of features, list them here. -->
@@ -131,16 +119,10 @@ If you created an application or package and would like other developers to cont
 
 ## Tests
 
-This webpage is compatible on various screen sizes! Test it out by visiting the page on your computer, tablet, or phone.
+This randomized password generator will only allow a password length of 8-128 characters. Test this out by inputting a number outside of this range.
 
-Click the inline banner categories to be immediately directed to the corresponding webpage sections.
+This generator will generate a password with any character type combination. Test it out with the user input prompts.
 
-Test out the fixed social media bar by clicking the icons to be redirected to the corresponding pages.
-
-There are several other embedded links on this site, check them out!
-
-When on a subpage, be immediately redirected back to the homepage by clicking the fixed home icon on the left hand side.
-
-Feel free to test out the radio buttons and check boxes on the Feedback Form but please note that this form cannot currently be submitted.
+This generator requires the user to select at least one character type. Test out this feature by choosing 'cancel' on every character type input.
 
 <!-- Go the extra mile and write tests for your application. Then provide examples on how to run them here. -->

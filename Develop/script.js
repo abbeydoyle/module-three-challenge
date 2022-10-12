@@ -86,7 +86,6 @@ var password;
       userInput = lowcase.concat(spchar, numb);
     }
 
-
     // 2 yes 2 no
     else if (upcaseInput && lowcaseInput) {
       userInput = upcase.concat(lowcase);
@@ -146,6 +145,7 @@ var password;
       password = password + userInput[Math.floor(Math.random() * userInput.length)];
     }
     */
+  
 
     var passwordString = ""
 
