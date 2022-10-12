@@ -140,11 +140,21 @@ var password;
 
     */
 
+    // this literally gives "'undefined' + 'generated password'"
+   /*
     for (var i=0; i < length; i++) {
-      password = userInput[Math.floor(Math.random() * userInput.length)];
+      password = password + userInput[Math.floor(Math.random() * userInput.length)];
+    }
+    */
+
+    var passwordString = ""
+
+    for (var i=0; i < length; i++) {
+      passwordString = passwordString + userInput[Math.floor(Math.random() * userInput.length)];
     }
 
-    return password;
+
+    return passwordString;
 
 
 }
