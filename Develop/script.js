@@ -128,25 +128,6 @@ var password;
       userInput = numb;
     }
 
-    /* for (var i = 0; i < length; i++) {
-      var joinInput = userInput[Math.floor(Math.random() * userInput.length)];
-      password.push(joinInput);
-    }
-    
-    let passwordString = joinInput.toString();
-
-    var passwordString = password.join("");
-
-    */
-
-    // this literally gives "'undefined' + 'generated password'"
-   /*
-    for (var i=0; i < length; i++) {
-      password = password + userInput[Math.floor(Math.random() * userInput.length)];
-    }
-    */
-  
-
     var passwordString = ""
 
     for (var i=0; i < length; i++) {
